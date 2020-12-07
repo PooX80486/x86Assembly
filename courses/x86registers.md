@@ -15,7 +15,7 @@ Intel x86 processor has a lot a registers, each has specific rôle.
 ## 2. Index and Pointers registers
 
 | Register | Name | Description|
-|---|---|---|---|
+|---|---|---|
 |**esp**|**S**tack **P**ointer| Point to last added element in the Stack |
 |**ebp**|**B**ase **P**ointer| Reference stack begin address |
 |**esi**|**S**ource **I**ndex| Used for some string operations |
