@@ -25,8 +25,8 @@ Intel x86 processor has a lot a registers, each has specific rôle.
 
 ## 3. Flags register
 
-Followed bits compound the flags registers which his size is :
-* 16 bits (2 bytes) for *flag*
+Followed bits compound the flags registers which his size depend from the processor architecture :
+* 16 bits (2 bytes) for *flag* register
 * 32 bits (4 bytes) for *eflags* register
 
 | Flag | Name | Position | Size |
