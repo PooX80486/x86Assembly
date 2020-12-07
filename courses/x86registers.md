@@ -4,7 +4,7 @@ Intel x86 processor has a lot a registers, each has specific rôle.
 
 ## 1. Base registers
 
-| Register | Name | Description |
+| Register name | Name | Description |
 |---|---|---|
 |**eax**|**A**ccumulator | Used for several mathematicals operations, function to call and return value after result |
 |**ebx**|**B**ase | Used for indirect addressing |
@@ -14,7 +14,7 @@ Intel x86 processor has a lot a registers, each has specific rôle.
 ***
 ## 2. Index and Pointers registers
 
-| Register | Name | Description|
+| Register name | Name | Description|
 |---|---|---|
 |**esp**|**S**tack **P**ointer| Point to the last added element in the Stack |
 |**ebp**|**B**ase **P**ointer| Reference stack begin address |
@@ -25,11 +25,11 @@ Intel x86 processor has a lot a registers, each has specific rôle.
 
 ## 3. Flags register
 
-Followed bits compound the flags registers which his size depend from the processor architecture :
+Followed bits compound the flags register which his size depend from the processor architecture :
 * 16 bits (2 bytes) for *flag* register
 * 32 bits (4 bytes) for *eflags* register
 
-| Flag | Name | Position | Size |
+| Flag name | Name | Position | Size |
 |---|---|---|---|
 |**cf**|**C**arry **F**lag|0|2 bits|
 |**pf**|**P**arity **F**lag|2|2 bits|
